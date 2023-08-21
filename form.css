@@ -6,17 +6,18 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #002c0d;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 .land{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .title{
     background-color: black;
