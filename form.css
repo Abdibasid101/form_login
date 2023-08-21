@@ -33,9 +33,60 @@ body{
     justify-content: center;
     padding: 30px;
 }
-/* form{
+form{
     margin: 30px;
+   
 }
 form .row{
-    
-} */
+    margin: 5px 5px 0px 5px;
+    width: 100%;
+    background-color: #273232;
+    padding: 10px;
+    display: flex;
+    /* padding-right: 15px; */
+    border-radius: 5px;
+    /* position: absolute; */
+}
+.row i{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+
+}
+.row input{
+    width: 100%;
+    padding: 10px 0px;
+    background: 0;
+    border: 0;
+    outline: 0;
+    color: #fff;
+}
+.row .button{
+    color: #fff;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+h2{
+    font-size: 15px;
+    margin: 5px;
+    font-weight: 400;
+}
+h2 a{
+    text-decoration: none;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+}
+.signup{
+    text-decoration: none;
+}
+.signup:hover{
+    text-decoration: underline;
+    color: blue;
+}
